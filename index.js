@@ -13,12 +13,19 @@ function merge(arr1, arr2){
       }
     } 
   //two more while loops to finish out the i and j two pointers
-  
+  while(i < arr1.length) {
+    results.push(arr1[i])
+    i++;
+  }
+  while(j < arr2.length) {
+    results.push(arr2[j])
+    j++;
+  }
     return results;
 }
+ 
 
-
-console.log(merge([1, 10, 50], [2, 14, 99, 100]))
+console.log('checking answer:', merge([1, 10, 50], [2, 14, 99, 100]))
 //=> [1, 2, 10, 14, 50] we finished the first array and the while loop is done or break out. Now we stil lhave the remaining items in the 2nd array to sort.
 
 
