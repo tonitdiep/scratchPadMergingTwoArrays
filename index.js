@@ -1,4 +1,18 @@
-
+function merge(arr1, arr2){
+    let results = [],
+    let i = 0;
+    let j = 0
+//while there is data to still look at in both pointers do this then do that or return results...
+    while(i < arr1.length && j < arr2.length){
+      if(arr2[j] > arr1[i]){
+        results.push(arr[i]);
+        i++;
+      } else {
+        
+      }
+    } 
+    return results;
+}
 
 
 
@@ -12,6 +26,7 @@
 we want to merge these arrays
 ([1, 10, 50], [2, 14, 99, 100])
 POSSIBLE APPROACH(S)
+-->smallests items first in new array so ascending order, not descending order
 --> 2 pointers  
 --> while loops 
 
