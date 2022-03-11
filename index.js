@@ -11,6 +11,9 @@
 /* 
 we want to merge these arrays
 ([1, 10, 50], [2, 14, 99, 100])
+POSSIBLE APPROACH(S)
+--> 2 pointers  
+--> while loops 
 
 pseudo brainstorm:
 merge([1, 10, 50], [2, 14, 99, 100])
