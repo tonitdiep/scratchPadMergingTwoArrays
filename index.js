@@ -12,6 +12,8 @@ function merge(arr1, arr2){
         j++;
       }
     } 
+  //two more while loops to finish out the i and j two pointers
+  
     return results;
 }
 
